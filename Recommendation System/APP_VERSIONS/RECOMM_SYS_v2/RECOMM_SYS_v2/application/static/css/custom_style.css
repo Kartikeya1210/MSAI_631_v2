@@ -1,0 +1,69 @@
+/* === ANY ELEMENT OVERRIDE ===*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* === FULL PAGE ===*/
+html,
+body {
+    height: 100vh;
+    background-image: linear-gradient(135deg, #FDE5F2, #878FFE);
+    color: #3E3D53;
+}
+
+/* === NAV.HTML ===*/
+.menu-bar {
+    background-color: #3E3D53!important;
+}
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 500;
+}
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+}
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.navbar .fa {
+    color: #fff!important;
+    font-size: 26px;
+}
+.nav-link:hover {
+    border-bottom: 1px solid #fff!important;
+}
+.activate{
+    font-size: 16px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: bold;
+    text-shadow: #FC0 2px 0px 8px;
+}
+.navbar-brand img {
+    width: 90px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .nav-link:hover {
+        border-bottom: none!important;
+    }
+}
+
+/* === FOOTER ===*/
+.line-footer {
+    height: 5px;
+    color: #3E3D53!important;
+}
+
+.container-fluid {
+    padding-top: 100px
+}
